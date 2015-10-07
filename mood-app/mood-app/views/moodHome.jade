@@ -1,0 +1,12 @@
+﻿extends layout2
+
+block content
+  div(ng-controller="mainController as main")
+      h1 {{main.time | amCalendar }}
+      div
+      form
+        mood-canvas(selected="main.selectedMood")
+        mood-matrix(selected="main.selectedMood")
+        span Please describe how are you feeling
+        textarea(ng-model="main.description")
+        button(type="submit" ng-click="main.submit()" class="button") Save my mood

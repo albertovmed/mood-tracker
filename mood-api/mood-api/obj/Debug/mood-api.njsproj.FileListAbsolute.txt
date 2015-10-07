@@ -1,0 +1,2 @@
+C:\Users\Jose\documents\visual studio 2015\Projects\mood-api\mood-api\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Jose\documents\visual studio 2015\Projects\mood-api\mood-api\obj\Debug\mood-api.njsprojResolveAssemblyReference.cache
